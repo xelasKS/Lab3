@@ -1,0 +1,31 @@
+﻿@page
+@model GG.DataDisplayModel
+@{
+    ViewData["Title"] = "Data Display";
+}
+
+<h2>Data Display</h2>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>EmpNo</th>     //, , , ,  
+        <th>LastName</th>
+        <th>PhoneExt</th>
+        <th>HireDate</th>
+        <th>Salary</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.Data)
+    {
+        <tr>
+            <td>@item["EmpNo"]</td>
+            <td>@item["LastName"]</td>
+            <td>@item["PhoneExt"]</td>
+            <td>@item["HireDate"]</td>
+            <td>@item["Salary"]</td>
+        </tr>
+    }
+    </tbody>
+</table>
