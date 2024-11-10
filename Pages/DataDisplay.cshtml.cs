@@ -7,26 +7,22 @@ namespace GG
 {
     public class DataDisplayModel : PageModel
     {
-        private readonly IConfiguration _configuration;
+        private readonly DataAccess _dataAccess;
         public List<DataRow> Data { get; set; }
 
-        public DataDisplayModel(IConfiguration configuration)
+        public DataDisplayModel(DataAccess dataAccess)
         {
-            _configuration = configuration;
+            _dataAccess = dataAccess ?? throw new ArgumentNullException();
             Data = new List<DataRow>();
         }
 
-        public void OnGet()
+        public async Task OnGet()
         {
-            var connectionString = _configuration.GetConnectionString("Default");
-            var dataAccess = new DataAccess(connectionString);
             string query = "SELECT EmpNo, LastName, PhoneExt, HireDate, Salary FROM Orders";
-            DataTable dataTable = dataAccess.GetData(query);
+            DataTable dataTable = await _dataAccess.GetData(query);
 
-            foreach (DataRow row in dataTable.Rows)
-            {
-                Data.Add(row);
-            }
+            foreach (DataRow row in dataTable.Rows) Data.Add(row);
+            
         }
     }
 }

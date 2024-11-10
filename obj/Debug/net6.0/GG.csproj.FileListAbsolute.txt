@@ -41,3 +41,16 @@ C:\Users\sasha\RiderProjects\е\GG\GG\obj\Debug\net6.0\refint\GG.dll
 C:\Users\sasha\RiderProjects\е\GG\GG\obj\Debug\net6.0\GG.pdb
 C:\Users\sasha\RiderProjects\е\GG\GG\obj\Debug\net6.0\GG.genruntimeconfig.cache
 C:\Users\sasha\RiderProjects\е\GG\GG\obj\Debug\net6.0\ref\GG.dll
+C:\Users\sasha\RiderProjects\Lab33\obj\Debug\net6.0\GG.csproj.AssemblyReference.cache
+C:\Users\sasha\RiderProjects\Lab33\obj\Debug\net6.0\GG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sasha\RiderProjects\Lab33\obj\Debug\net6.0\GG.AssemblyInfoInputs.cache
+C:\Users\sasha\RiderProjects\Lab33\obj\Debug\net6.0\GG.AssemblyInfo.cs
+C:\Users\sasha\RiderProjects\Lab33\obj\Debug\net6.0\GG.csproj.CoreCompileInputs.cache
+C:\Users\sasha\RiderProjects\Lab33\obj\Debug\net6.0\GG.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sasha\RiderProjects\Lab33\obj\Debug\net6.0\GG.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sasha\RiderProjects\Lab33\obj\Debug\net6.0\GG.RazorAssemblyInfo.cache
+C:\Users\sasha\RiderProjects\Lab33\obj\Debug\net6.0\GG.RazorAssemblyInfo.cs
+C:\Users\sasha\RiderProjects\Lab33\obj\Debug\net6.0\GG.sourcelink.json
+C:\Users\sasha\RiderProjects\Lab33\obj\Debug\net6.0\GG.dll
+C:\Users\sasha\RiderProjects\Lab33\obj\Debug\net6.0\refint\GG.dll
+C:\Users\sasha\RiderProjects\Lab33\obj\Debug\net6.0\GG.pdb
